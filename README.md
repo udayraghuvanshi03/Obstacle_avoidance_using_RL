@@ -15,6 +15,11 @@ This project focuses on developing an autonomous obstacle avoidance system for m
 
 ## Results
 - Q-Learning
-<img src="Imagesq_learning_gif.gif" alt="Dataset" width="700" height="400">
+When the environment was visualized using the learned policy using Q-Learning, the performance was poor. The agent kept rotating in place until the dynamic obstacle stuck it and the episode ended. This was mainly because the state space was infinitely big and it was impossible to find the optimal Q value for every possible state.
+<img src="Images/q_learning_gif.gif" alt="Dataset" width="500" height="300">
+
+- Deep Q-Learning
+
+
 
 
