@@ -19,7 +19,22 @@ When the environment was visualized using the learned policy using Q-Learning, t
 <img src="Images/q_learning_gif.gif" alt="Dataset" width="500" height="300">
 
 - Deep Q-Learning
+DQN extends Q-Learning by leveraging deep neural networks to approximate the Q-value function. It's a powerful algorithm, specifically in environments with high-dimensional state spaces such as raw sensor inputs in this case. The integration of neural networks significantly enhanced the capability to handle high-dimensional state spaces. 
 
+<img src="Images/dqn.gif" alt="Dataset" width="500" height="300">
+
+## Generalzing to unseen environments
+
+<table>
+  <tr>
+    <td><img src="Images/dqn-1.gif" alt="GIF 1" width="300"></td>
+    <td><img src="Images/dqn-2.gif" alt="GIF 2" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="Images/dqn-3.gif" alt="GIF 3" width="300"></td>
+    <td><img src="Images/dqn-4.gif" alt="GIF 4" width="300"></td>
+  </tr>
+</table>
 
 
 
