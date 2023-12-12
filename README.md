@@ -23,7 +23,7 @@ DQN extends Q-Learning by leveraging deep neural networks to approximate the Q-v
 
 <img src="Images/dqn.gif" alt="Dataset" width="500" height="300">
 
-## Generalzing to unseen environments
+## Generalizing to unseen environments
 
 <table>
   <tr>
