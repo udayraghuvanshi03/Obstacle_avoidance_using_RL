@@ -19,14 +19,17 @@ This project focuses on developing an autonomous obstacle avoidance system for m
 When the environment was visualized using the learned policy using Q-Learning, the performance was poor. The agent kept rotating in place until the dynamic obstacle stuck it and the episode ended. This was mainly because the state space was infinitely big and it was impossible to find the optimal Q value for every possible state.
 <img src="Images/q_learning_gif.gif" alt="Dataset" width="500" height="300">
 
-- Deep Q-Learning
+- Deep Q-Learning (DQN)
   
 DQN extends Q-Learning by leveraging deep neural networks to approximate the Q-value function. It's a powerful algorithm, specifically in environments with high-dimensional state spaces such as raw sensor inputs in this case. The integration of neural networks significantly enhanced the capability to handle high-dimensional state spaces. 
 
 <img src="Images/dqn_gif.gif" alt="Dataset" width="500" height="300">
 
-- Double Deep Q Learning
+- Double Deep Q Learning (DDQN)
 
+This further improved the performance of the system and mitigated the issue of overestimation bias encountered in DQN. It potentially as infinite running life. 
+
+<img src="Images/double_dqn.gif" alt="Dataset" width="500" height="300">
 
 ## Generalizing to unseen environments
 
